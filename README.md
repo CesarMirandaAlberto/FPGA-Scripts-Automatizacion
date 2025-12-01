@@ -1,4 +1,4 @@
-# FPGA-Scripts-Automatizaci-n
+# FPGA-Scripts-Automatización
 El presente repositorio contiene scripts para automatizar algunas de las fases de desarrollo 
 de proyectos de sistemas digitales.
 
