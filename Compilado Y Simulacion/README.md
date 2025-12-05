@@ -1,13 +1,18 @@
-# 💻 Compilado Y Simulación 🧪
-El presente repositorio contiene las plantillas para automatizar el proceso de compilado y simulación verilog y vhdl utilizando los software iverilog y ghdl respectivamente y visualizando el waveform con gtkwave.
+# 💻 Automatización de Compilado Y Simulación (VHDL/Verilog)
+El presente repositorio contiene las plantillas para automatizar el proceso de :
+- Compilado
+- Elaboración
+- Simulación
+- Visualización del waveform.
 
-# ⚠️ CONTEXTO DE PLANTILLAS ⚠️
-Para ambos lenguejes se presentan dos plantillas de automatización diferentes <br>
+# ⚠️ Contexto de las plantillas del repositorio 
+Para ambos lenguajes existen dos variantes dado que los proyectos pueden tener organización diferente:
+
 1.- Módulos en misma carpeta <br>
 2.- Módulos en diferente carpeta <br>
-si bien el proceso es completamente similar, cambia un poco al momento en que se necesita utilizar una de estas plantillas, a continuación se presentan la explicación de las diferencias entre una y otra. <br>
+El proceso es completamente similar, sin embargo cambia la forma en que se indican las rutas. <br>
 
-# MODULOS EN MISMA CARPETA 
+# 📂 Módulos en la mismca carpeta
 Ejemplificaremos este caso con el sumador de 4 bits que se encuentra en los repos de vhdl y verilog con la misma organización.
 
 * 📂 VHDL <br>
