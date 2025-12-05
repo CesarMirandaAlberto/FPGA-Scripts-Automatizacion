@@ -49,6 +49,6 @@ Para evitar duplicar los módulos y tenerlos repetidos en diferentes carpetas es
 
 Para que el módulo Sumador4Bits_Display7s pueda ser compilado es necesario que todos los módulos de la estructura que se instancian deben ser compilados antes del Sumador4Bits_Display7s dado que estos módulos no se encuentran en la misma carpeta se debe especificar de la siguiente manera. <br>
 ghdl -a "..\..\Fundamentos\Medio_Sumador.vhd" <br>
-..\..\ Especifica la cantida de veces que el compilador tiene que "salir" de la carpeta donde se encuentra el módulo principal. <br>
-\Fundamentos\Medio_Sumador.vhd Especifica la carpeta y nombre del módulo a compilar. <br>
+..\ ..\ Especifica la cantida de veces que el compilador tiene que "salir" de la carpeta donde se encuentra el módulo principal. <br> <br>
+\Fundamentos\Medio_Sumador.vhd Especifica la carpeta y nombre del módulo a compilar. <br> <br>
 Esta misma lógica aplica para iverilog y ghdl solo modificando los comandos.
