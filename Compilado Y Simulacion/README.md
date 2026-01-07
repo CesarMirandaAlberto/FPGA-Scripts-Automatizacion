@@ -41,9 +41,9 @@ Para evitar duplicar los módulos y tenerlos repetidos en diferentes carpetas es
            * |--- Medio_Sumador.vhd <br>
            * |--- Sumador_Completo.vhd <br>
            * |--- Sumador4_Bits.vhd <br>
-    * |---📂 Miniproyectos
-           *       |---📂 Sumador 4 Bits Display 7 Segmentos
-            *      |  Sumador4Bits_Exhibidor.vhd
+    * |---📂 Miniproyectos<br>
+           * |---📂 Sumador 4 Bits Display 7 Segmentos<br>
+            *      | Sumador4Bits_Exhibidor.vhd
             
 * La estructura del módulo Sumador4Bits_Display7s <br>
     * |--- DecodificadorBinario_Hexadecimal.vhd <br>
